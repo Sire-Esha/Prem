@@ -1,0 +1,4 @@
+
+Scenario: Website Navigation           [90m# src/test/java/FeatureFiles/FF01_NavigateToHNWebsite.feature:2[0m
+  [32mGiven [0m[32mNavigate to Website and Assert[0m [90m# StepDefinations.SD01_NavigateToHNWebsite.navigate_to_website_and_assert()[0m
+  [32mThen [0m[32mNavigate to Account Screen[0m      [90m# StepDefinations.SD01_NavigateToHNWebsite.navigate_to_account_screen()[0m
