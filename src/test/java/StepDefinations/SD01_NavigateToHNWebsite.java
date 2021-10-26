@@ -15,7 +15,7 @@ public class SD01_NavigateToHNWebsite
     @Then("Navigate to Account Screen")
     public void navigate_to_account_screen() {
 
-        AT01_NavigateToHNWebsite.NavCreateAcc();
+       AT01_NavigateToHNWebsite.NavCreateAcc();
     }
 
 }

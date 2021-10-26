@@ -18,7 +18,7 @@ public class OpenBrowser
 		ChromeOptions options = new ChromeOptions();
 		options.addArguments("--window-size=1920,1080");
 		options.addArguments("--allow-insecure-localhost");
-		options.addArguments("--headless");
+		//options.addArguments("--headless");
 		options.addArguments("--disable-gpu");
 		options.addArguments("--no-sandbox");
 		DesiredCapabilities caps = DesiredCapabilities.chrome();
@@ -30,6 +30,7 @@ public class OpenBrowser
 		//driver.get(ReadPropertiesFile.PropFile("urlAccountScreen"));
 		//driver.get(ReadPropertiesFile.PropFile("urlCreateanAccScreen"));
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
+		//Thread.sleep(3000);
 	}
 		public static void CloseBrowser() throws IOException
 	    {
